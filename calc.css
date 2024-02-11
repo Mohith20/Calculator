@@ -6,10 +6,12 @@ body {
     justify-content: center;
     height: 100vh;
     margin: 0;
+    background: url('back.jpg') no-repeat center center fixed;
+    background-size: cover;
 }
 
 .calculator {
-    background-color: #007FFF;
+    background-color: #040404;
     border-radius: 1em;
     width: 100%;
     max-width: 240px;
@@ -24,7 +26,7 @@ input[type="button"] {
     font-size: 1.2em;
     margin: 0;
     border: none;
-    background-color: #7CB9E8;
+    background-color: #343435;
     color: black;
     box-sizing: border-box;
 }
@@ -40,17 +42,17 @@ input[type="textarea"] {
 
 input[type="button"] {
     cursor: pointer;
-    border-bottom: 1px solid #007FFF;
+    border-bottom: 1px solid #050505;
 }
 
 input[type='button']:hover {
-    background-color: #007FFF;
+    background-color: #878787;
 }
 
 .button {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 1px;
+    gap: 0.8px;
 }
 
 /*input[type="button"][value="C"] {
